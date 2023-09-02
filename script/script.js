@@ -26,19 +26,19 @@
 // <h2 class=“title”> image title </h2>
 // </div>
 
-// let divID = document.getElementById("div-id");
-// let newElement = document.createElement("img");
-// let newHeader = document.createElement("h2");
-// divID.classList.add("wraper");
-// newElement.setAttribute(
-//   "src",
-//   "https://cdn.pixabay.com/photo/2016/11/25/23/15/moon-1859616_1280.jpg"
-// );
-// newElement.setAttribute("alt", "image");
-// newHeader.textContent = "image title";
-// newHeader.classList.add("title");
-// divID.appendChild(newElement);
-// divID.appendChild(newHeader);
+let divID = document.getElementById("div-id");
+let newElement = document.createElement("img");
+let newHeader = document.createElement("h2");
+divID.classList.add("wraper");
+newElement.setAttribute(
+  "src",
+  "https://cdn.pixabay.com/photo/2016/11/25/23/15/moon-1859616_1280.jpg"
+);
+newElement.setAttribute("alt", "image");
+newHeader.textContent = "image title";
+newHeader.classList.add("title");
+divID.appendChild(newElement);
+divID.appendChild(newHeader);
 
 // მოცემულია სტრინგი - ‘12345’, გაიგეთ ამ რიცხვებსის ჯამი.
 // ( უნდა გადაიყავნოთ მასივში, გათვალოთ ჯამი,
@@ -99,11 +99,11 @@
 
 // დაწერეთ ფუნქცია, რომელიც პარამეტრსდ იღებს სტრინგს, და დააბრუნებს ჩაწერილი სტრინგის სიგრძეს.
 
-// function func1(item) {
-//      return item.length;
-// }
-// let newfunc1 = func1(prompt('enter your name'));
-// console.log(newfunc1.toString());
+function func1(item) {
+     return item.length;
+}
+let newfunc1 = func1(prompt('enter your name'));
+console.log(newfunc1.toString());
 
 // Prompt ფუნქციის საშუალებით კითხეთ მომხმარებელს შემდეგი კითხვა: საქართველოს დედაქალაქი?
 //  სწორი პასუხი ჩაწერეთ პატარა ასობიეთ და
@@ -112,11 +112,11 @@
 //      გადაიყვანეთ ეს პასუხი პატარა ასოებად და შეადარეთ სწორ პასუხს.
 //      თუ მომხმარებლის პასუხი სწორია, დაბეჭდეთ სწორია, თუ არა მაშინ დაბეჭდეთ არასწორია.
 
-// let corectAnwser = "tbilisi";
-// userAnswer = prompt(" საქართველოს დედაქალაქი?");
-// if (userAnswer.toLowerCase() == corectAnwser) {
-//   console.log("სწორია");
-// } else console.log("არასწორია");
+let corectAnwser = "tbilisi";
+userAnswer = prompt(" საქართველოს დედაქალაქი?");
+if (userAnswer.toLowerCase() == corectAnwser) {
+  console.log("სწორია");
+} else console.log("არასწორია");
 
 
 
